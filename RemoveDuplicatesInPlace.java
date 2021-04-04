@@ -19,7 +19,6 @@ public class RemoveDuplicatesInPlace {
 			nums[i] = nums[indexList.get(i)];
 		}
 		
-//		System.out.println(indexList);
 		for(int i: nums) {
 			System.out.println(i);
 		}
@@ -32,6 +31,3 @@ public class RemoveDuplicatesInPlace {
 		rd.removeDuplicates(nums);	
 	}
 }
-//  1,2,4,7
-//	3,5,6
-//1,2,3
