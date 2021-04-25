@@ -22,12 +22,12 @@ public class MyAtoi {
 				 isPositive = true;
 				 isNotDigit = false;
 			 }
-			 else if(c == ' ' && isNotDigit) {
+			 else if(c == ' ') {
 				 continue;
 			 }
 			 else {
 				 break;
-			 }
+			 } 
 		 }
 		 try {
 			 num = output.length() > 0? Integer.parseInt(output) : num;
